@@ -364,11 +364,16 @@ h1, h2, h3, h4, h5, h6, p {
 
 #about,
 #services,
-#work,
+#work {
+    text-align: center;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
 #contact {
     text-align: center;
     overflow: hidden;
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
 .about-content h3,
@@ -543,7 +548,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .work-item-inside {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, .8);
     color: #fff;
     display: block;
     position: absolute;
@@ -571,31 +576,27 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 400;
 }
 
+.work-descrip{
+  padding: 5px;
+  margin: 15px;
+  color: #fff;
+}
+
 /* ==========================================================================
    Contact
    ========================================================================== */
 
-/*.social [class^="icon-"],
-.social [class*=" icon-"] {
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-    margin: 0 18px;
-}*/
-
-.social [class^="icon-"],
-.social [class*=" icon-"] {
-    font-family: 'icon';
+.social {
     speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
     font-size: 1.6875rem;
-    font-size: 27px;
+    font-size: 40px;
     line-height: 1rem;
     line-height: 16px;
-    color: #e05915;
+    color: #e05915 !important;
     padding: 6px;
     margin: 0 27px;
 
@@ -608,15 +609,6 @@ h1, h2, h3, h4, h5, h6, p {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.social [class^="icon-"]:hover,
-.social [class*=" icon-"]:hover {
-    color: #c95012;
-}
-
-.social {
-    margin-top: 90px;
-    cursor: default;
-}
 
 .icon-twitter:before {
     content: "\e600";
