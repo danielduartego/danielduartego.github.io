@@ -121,6 +121,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0 45px;
     line-height: 55px;
     background-color: #e05915;
+    border: 1px solid #e05915 ;
 
     -webkit-border-radius: 45px;
        -moz-border-radius: 45px;
@@ -131,7 +132,7 @@ h1, h2, h3, h4, h5, h6, p {
             background-clip: padding-box;
 
     color: #fff;
-    border: 0;
+    /*border: 0;*/
 
     -webkit-transition: background-color 0.3s ease;
        -moz-transition: background-color 0.3s ease;
@@ -165,7 +166,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .but:hover,
 .but:active {
-    background-color: #c95012;
+    background-color: rgba(67,28,93,0);
+    /*border: 1px solid #e05915 ;*/
 }
 
 /* ==========================================================================
@@ -364,17 +366,14 @@ h1, h2, h3, h4, h5, h6, p {
 
 #about,
 #services,
-#work {
-    text-align: center;
-    overflow: hidden;
-    padding: 100px 0;
-}
-
+#work,
+#tech,
 #contact {
     text-align: center;
     overflow: hidden;
-    padding: 100px 0;
+    padding: 150px 0;
 }
+
 
 .about-content h3,
 .services-content h3,
@@ -517,6 +516,12 @@ h1, h2, h3, h4, h5, h6, p {
     text-transform: uppercase;
 }
 
+.tech-icon {
+  height: 70px;
+  margin: 17px;
+  align: center;
+}
+
 /* ==========================================================================
    Work
    ========================================================================== */
@@ -610,7 +615,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 
-.icon-twitter:before {
+/*.icon-twitter:before {
     content: "\e600";
 }
 
@@ -624,7 +629,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .icon-github:before {
     content: "\e603";
-}
+}*/
 
 /* ==========================================================================
    Footer
@@ -656,6 +661,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 #footer a:hover {
     color: #c95012;
+}
+
+.heart {
+  color: red;
 }
 
 /* ==========================================================================
@@ -723,6 +732,7 @@ h1, h2, h3, h4, h5, h6, p {
 
         #about .empty,
         #work .empty,
+        #tech .empty,
         #contact .empty {
             display: none;
         }
@@ -865,6 +875,7 @@ h1, h2, h3, h4, h5, h6, p {
 
         #about .empty,
         #work .empty,
+        #tech .empty,
         #contact .empty {
             display: none;
         }
@@ -1024,6 +1035,7 @@ h1, h2, h3, h4, h5, h6, p {
         .span_2,
         #about .empty,
         #work .empty,
+        #tech .empty,
         #contact .empty {
             width:16.6666666667%;
         }
@@ -1109,6 +1121,7 @@ h1, h2, h3, h4, h5, h6, p {
         .span_2,
         #about .empty,
         #work .empty,
+        #tech .empty,
         #contact .empty {
             width:16.6666666667%;
         }
@@ -1197,6 +1210,7 @@ h1, h2, h3, h4, h5, h6, p {
         .span_3,
         #about .empty,
         #work .empty,
+        #tech .empty,
         #contact .empty {
             width:25.0%;
         }
