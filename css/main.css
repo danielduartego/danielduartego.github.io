@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6, p {
     overflow: hidden;
 }
 
-@font-face {
+/*@font-face {
     font-family: 'icon';
     src:url('../fonts/icon.eot');
     src:url('../fonts/icond41d.eot?#iefix') format('embedded-opentype'),
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6, p {
         url('../fonts/icon.svg#icon') format('svg');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 
 /* ==========================================================================
@@ -122,6 +122,8 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 55px;
     background-color: #e05915;
     border: 1px solid #e05915 ;
+    color: #fff;
+    /*border: 0;*/
 
     -webkit-border-radius: 45px;
        -moz-border-radius: 45px;
@@ -131,13 +133,17 @@ h1, h2, h3, h4, h5, h6, p {
        -moz-background-clip: padding-box;
             background-clip: padding-box;
 
-    color: #fff;
-    /*border: 0;*/
 
     -webkit-transition: background-color 0.3s ease;
        -moz-transition: background-color 0.3s ease;
          -o-transition: background-color 0.3s ease;
             transition: background-color 0.3s ease;
+}
+
+.but:hover,
+.but:active {
+  background-color: rgba(224,90,21,0.8);
+  border: 1px solid #e05915 ;
 }
 
 .off {
@@ -164,11 +170,6 @@ h1, h2, h3, h4, h5, h6, p {
             transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.but:hover,
-.but:active {
-    background-color: rgba(67,28,93,0);
-    /*border: 1px solid #e05915 ;*/
-}
 
 /* ==========================================================================
    Header
@@ -407,7 +408,7 @@ h1, h2, h3, h4, h5, h6, p {
    ========================================================================== */
 
 #home {
-    background-color: rgba(0,0,0, .5);
+    background-color: rgba(0,0,0,0);
     background-image: url(../img/header-bg.jpg);
     background-position: top;
     background-repeat: no-repeat;
@@ -614,6 +615,10 @@ h1, h2, h3, h4, h5, h6, p {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.social:hover {
+  color: rgba(224,90,21,0.7) !important;
+}
+
 
 /*.icon-twitter:before {
     content: "\e600";
@@ -665,6 +670,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .heart {
   color: red;
+}
+
+.heart:hover {
+  font-size: 15px;
 }
 
 /* ==========================================================================
@@ -760,10 +769,10 @@ h1, h2, h3, h4, h5, h6, p {
             margin-bottom: 0;
         }
 
-        .social [class^="icon-"],
+        /*.social [class^="icon-"],
         .social [class*=" icon-"] {
             margin: 0 3px;
-        }
+        }*/
 
         .span_1 {
             width:8.33333333333%;
