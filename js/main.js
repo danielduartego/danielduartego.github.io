@@ -42,7 +42,7 @@ jQuery(document).ready(function($) {
 	// Works
 	$(".work-item").hover(function(e){
 		$(this).children('.work-item-inside').addClass("visuallyshowed");
-	}, function(){ 
+	}, function(){
 		$(this).children('.work-item-inside').removeClass("visuallyshowed");
 	});
 	// Works
@@ -52,8 +52,8 @@ jQuery(document).ready(function($) {
 	    skrollr.init({
 			beforerender: function(data) {
 				return data.curTop > data.lastTop;
-			}        
-        	
+			}
+
 	    });
 	}
 	// Skrollr
@@ -68,7 +68,7 @@ $(window).load(function() {
 	$("body").css("overflow", "auto");
 	$(".home-title").removeClass("jiji");
 	$(".menu-icon").removeClass("jiji");
-	
+
 });
 
 
@@ -82,9 +82,9 @@ function fixSizes() {
 	var windowWidth = $(window).width();
 
 	$("#home").css('height', windowHeight);
-	$(".home-title").each(function() {
-		$(this).css('padding-top', ($(this).parent().height() - $(this).height()) / 2);
-	});
+	// $(".home-title").each(function() {
+	// 	$(this).css('padding-top', ($(this).parent().height() - $(this).height()) / 2);
+	// });
 	$(".work-item-inside-content").each(function() {
 		$(this).css('margin-top', ($(this).parent().height() - $(this).height()) / 2);
 	});

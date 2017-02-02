@@ -17,7 +17,7 @@ body {
     font-size: 100%; /* 16px */
     line-height: normal;
     font-weight: 100;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #646473;
     height: 100%;
 }
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .but {
     display: inline-block;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 1rem;
     font-size: 16px;
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6, p {
 .menu ul li a {
     display: block;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 2.25rem;
     font-size: 27px;
     font-weight: 100;
@@ -381,7 +381,7 @@ h1, h2, h3, h4, h5, h6, p {
 .work-content h3,
 .contact-content h3,
 .footer h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 2.25rem;
     font-size: 27px;
     font-weight: 100;
@@ -409,7 +409,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 #home {
     background-color: rgba(0,0,0,0);
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header-2-bg.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -428,10 +428,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .home-title h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 4rem;
     font-size: 64px;
-    font-weight: 400;
+    font-weight: 300;
     color: #fff;
     letter-spacing: 3px;
     margin-bottom: 9px;
@@ -444,7 +444,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .home-title h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     /*font-size: 1.3125rem;*/
     font-size: 20px;
     font-weight: 100;
