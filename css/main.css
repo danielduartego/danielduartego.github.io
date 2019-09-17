@@ -397,7 +397,7 @@ h1, h2, h3, h4, h5, h6, p {
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-bottom: 45px;
-    /* color: #000; */
+    color: #000;
 }
 
 .about-content p,
@@ -405,11 +405,11 @@ h1, h2, h3, h4, h5, h6, p {
 .work-content p,
 .contact-content p,
 .footer p {
-    font-size: 1.125rem;
-    font-size: 18px;
-    line-height: 2.25rem;
-    line-height: 36px;
-    color: #666;
+    font-size: 1.5rem;
+    /* font-size: 18px; */
+    line-height: 2.5rem;
+    /* line-height: 36px; */
+    color: #333;
 }
 
 /* ==========================================================================
@@ -422,7 +422,7 @@ h1, h2, h3, h4, h5, h6, p {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     position: relative;
     text-align: center;
 }
@@ -545,7 +545,6 @@ h1, h2, h3, h4, h5, h6, p {
 .tech-icon {
   height: 70px;
   margin: 17px;
-  align: center;
 }
 
 /* ==========================================================================
@@ -618,7 +617,6 @@ h1, h2, h3, h4, h5, h6, p {
    ========================================================================== */
 
 .social {
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
